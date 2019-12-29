@@ -24,7 +24,7 @@ const Card = ({ data, listType, handleClick }) => {
           <S.Card listType={listType}>
             <S.Title>{days[day]}</S.Title>
             <S.Degrees>
-              {tempAverageMainList} {"F"}
+              {tempAverageMainList} {"C"}
             </S.Degrees>
           </S.Card>
         );
@@ -38,7 +38,7 @@ const Card = ({ data, listType, handleClick }) => {
           <S.Card onClick={() => handleClick(data)} listType={listType}>
             <S.Title>{data.currentWeather.cityName}</S.Title>
             <S.Degrees>
-              {tempFavorites} {"F"}
+              {tempFavorites} {"C"}
             </S.Degrees>
             <S.Title>{data.currentWeather.weatherText}</S.Title>
           </S.Card>

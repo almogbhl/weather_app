@@ -7,8 +7,8 @@ import Favorites from "../components/Favorites/Favorites";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" render={() => <HomePage />} />
-      <Route exact path="/favorites" component={Favorites} />
+      <Route exact path="/weather_app/" render={() => <HomePage />} />
+      <Route exact path="/weather_app/favorites" component={Favorites} />
     </Switch>
   );
 };

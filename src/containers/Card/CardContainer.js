@@ -7,7 +7,7 @@ import { changeCity } from "./Card.actions";
 const CardContainer = ({ do_changeCity, data, listType, history }) => {
   const handleClick = cardInfo => {
     do_changeCity(cardInfo);
-    history.push("/");
+    history.push("/weather_app");
   };
   
   return (

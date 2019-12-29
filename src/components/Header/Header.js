@@ -11,12 +11,12 @@ const Header = ({ do_changeTheme }) => {
     <S.Header>
       <S.Title>Herolo Weather Task</S.Title>
       <S.ButtonsBox>
-        <Link to="/">
+        <Link to="/weather_app">
           <Home
             style={{ color: deepPurple[50], fontSize: 40, marginLeft: 20 }}
           />
         </Link>
-        <Link to="/favorites">
+        <Link to="/weather_app/favorites">
           <FavoriteSharp
             style={{ color: deepPurple[50], fontSize: 40, marginLeft: 20 }}
           />
